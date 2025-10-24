@@ -1,0 +1,86 @@
+[
+  {
+    "Title": "Applying for Student Loans",
+    "Summary": "How to request federal or private loans.",
+    "Answer": "Start with the FAFSA at studentaid.gov by March 1. For private loans, check your lender requirements and ensure you meet Satisfactory Academic Progress.",
+    "Category": "Financial Aid",
+    "ArticleNumber": "KA-000201"
+  },
+  {
+    "Title": "Federal Financial Aid Instructions",
+    "Summary": "FAFSA and verification basics.",
+    "Answer": "Complete FAFSA each year using our school code 001234. If selected for verification, upload documents under Financial Aid > Tasks.",
+    "Category": "Financial Aid",
+    "ArticleNumber": "KA-000202"
+  },
+  {
+    "Title": "Applying for Scholarships and Loans",
+    "Summary": "Combined guide for scholarships and loans.",
+    "Answer": "Submit FAFSA for federal aid and apply for departmental scholarships via the Scholarships Portal. Deadlines typically March 1\u201315.",
+    "Category": "Financial Aid",
+    "ArticleNumber": "KA-000203"
+  },
+  {
+    "Title": "Resetting Your Portal Password",
+    "Summary": "Portal password reset options.",
+    "Answer": "Use portal.university.edu/reset. If 2FA is enabled and you lost your device, contact IT to reset your second factor.",
+    "Category": "IT Services",
+    "ArticleNumber": "KA-000204"
+  },
+  {
+    "Title": "Account Lockout and Password Resets",
+    "Summary": "What to do if locked out of your account.",
+    "Answer": "If locked out after failed attempts, wait 30 minutes or contact IT. Password resets are at portal.university.edu/reset.",
+    "Category": "IT Services",
+    "ArticleNumber": "KA-000205"
+  },
+  {
+    "Title": "Dropping a Course After the Deadline",
+    "Summary": "Late drop petition process.",
+    "Answer": "Submit a Late Drop Petition with advisor approval. Financial aid and transcript notations may apply.",
+    "Category": "Enrollment",
+    "ArticleNumber": "KA-000206"
+  },
+  {
+    "Title": "How to Drop or Withdraw from a Course",
+    "Summary": "Standard and late withdrawal steps.",
+    "Answer": "Before census date, drop via Enrollment > Manage Classes. After, submit a withdrawal request and consult financial aid about implications.",
+    "Category": "Enrollment",
+    "ArticleNumber": "KA-000207"
+  },
+  {
+    "Title": "Ordering Official Transcripts (Electronic)",
+    "Summary": "Electronic transcript delivery timeline.",
+    "Answer": "Order via Registrar in the portal; e-delivery usually within 24 hours.",
+    "Category": "Registrar",
+    "ArticleNumber": "KA-000208"
+  },
+  {
+    "Title": "Ordering Official Transcripts (Paper)",
+    "Summary": "Paper transcript delivery timeline.",
+    "Answer": "Paper copies may take 5\u20137 business days plus mailing time.",
+    "Category": "Registrar",
+    "ArticleNumber": "KA-000209"
+  },
+  {
+    "Title": "Waiving Student Health Insurance",
+    "Summary": "How to submit a waiver.",
+    "Answer": "Provide proof of comparable coverage by the waiver deadline in the portal.",
+    "Category": "Student Life",
+    "ArticleNumber": "KA-000210"
+  },
+  {
+    "Title": "Understanding Student Health Insurance",
+    "Summary": "Default enrollment and waiver info.",
+    "Answer": "Full-time students are enrolled by default. To waive, submit proof by the posted deadline.",
+    "Category": "Student Life",
+    "ArticleNumber": "KA-000211"
+  },
+  {
+    "Title": "Campus ID Cards and Replacements",
+    "Summary": "Where to get or replace your ID.",
+    "Answer": "New IDs at Orientation Check-In; replacements at the Campus Card Office for $25.",
+    "Category": "Student Life",
+    "ArticleNumber": "KA-000212"
+  }
+]

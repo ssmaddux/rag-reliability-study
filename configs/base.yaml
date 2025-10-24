@@ -1,0 +1,34 @@
+# Minimal config for small, fast runs
+run:
+  name: "smoke"
+  trials_per_prompt: 3        # repeat same prompt N times to measure variance
+  seed: 42                    # master seed (where supported)
+
+datasets:
+  knowledge_path: "datasets/clean_knowledge.json"   # switch to overlap_knowledge.json to test overlap
+  prompts_path: "prompts/prompts.json"
+  chunk_size: 512
+  chunk_overlap: 0.2          # 20% overlap
+
+retrieval:
+  type: "hybrid"              # options: dense | bm25 | hybrid
+  top_k: 3
+  mmr: true                   # Maximal Marginal Relevance
+  dedup: true                 # near-duplicate collapse at index time
+  rerank: false               # optional cross-encoder rerank (not enabled by default)
+
+llm:
+  backend: "dummy"            # options: dummy | openai | llama_cpp
+  temperature: 0.2
+  top_p: 1.0
+  seed: 1234                  # some backends ignore seed
+  model_name: "gpt-4o-mini"   # used if backend=openai
+  model_path: ""              # set if backend=llama_cpp: e.g., "/path/to/Llama-3.1-8B-Instruct-Q4_K_M.gguf"
+
+eval:
+  use_semantic_similarity: true
+  similarity_threshold: 0.88  # "agreement" threshold for semantic match
+  compute_groundedness: true  # check if chosen passage originates from retrieved top docs
+
+logging:
+  out_dir: "results"

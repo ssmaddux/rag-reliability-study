@@ -1,0 +1,86 @@
+[
+  {
+    "Title": "How to Apply for Financial Aid",
+    "Summary": "Steps for applying for need-based aid.",
+    "Answer": "Complete the FAFSA at studentaid.gov by March 1. Include our school code 001234. Submit required documents in the portal under Financial Aid > Tasks.",
+    "Category": "Financial Aid",
+    "ArticleNumber": "KA-000101"
+  },
+  {
+    "Title": "How to Access Your Student Email",
+    "Summary": "Activate and sign in to your university email.",
+    "Answer": "Go to portal.university.edu, use your Student ID and initial password from admissions email. Set up 2FA under Security > Two-Factor.",
+    "Category": "IT Services",
+    "ArticleNumber": "KA-000102"
+  },
+  {
+    "Title": "How to Reset Your Portal Password",
+    "Summary": "Password reset instructions for the student portal.",
+    "Answer": "Visit portal.university.edu/reset, enter your Student ID, and follow the emailed link. If locked out, contact IT at it-help@university.edu.",
+    "Category": "IT Services",
+    "ArticleNumber": "KA-000103"
+  },
+  {
+    "Title": "How to Drop a Course",
+    "Summary": "Policy and steps to drop a class.",
+    "Answer": "Before the census date, drop in the portal under Enrollment > Manage Classes. After the deadline, submit a Late Drop Petition with advisor approval.",
+    "Category": "Enrollment",
+    "ArticleNumber": "KA-000104"
+  },
+  {
+    "Title": "How to Add a Course",
+    "Summary": "Add a course during registration or add/drop period.",
+    "Answer": "Use the portal under Enrollment > Add Classes. If a course is full, join the waitlist; you\u2019ll be notified if a seat opens.",
+    "Category": "Enrollment",
+    "ArticleNumber": "KA-000105"
+  },
+  {
+    "Title": "Understanding Full-Time Status",
+    "Summary": "Credits required for full-time enrollment.",
+    "Answer": "Undergraduates are full time at 12+ credits; graduates at 9+ credits. Financial aid and housing may require full-time status.",
+    "Category": "Enrollment",
+    "ArticleNumber": "KA-000106"
+  },
+  {
+    "Title": "How to View Your Class Schedule",
+    "Summary": "Find and export your schedule.",
+    "Answer": "Portal > Enrollment > My Schedule. Use 'Export to Calendar' to add it to Google or Apple Calendar.",
+    "Category": "Enrollment",
+    "ArticleNumber": "KA-000107"
+  },
+  {
+    "Title": "Requesting Official Transcripts",
+    "Summary": "Order and delivery options for transcripts.",
+    "Answer": "Order via Registrar > Transcripts in the portal. Electronic delivery typically within 24 hours; paper copies may take 5\u20137 business days.",
+    "Category": "Registrar",
+    "ArticleNumber": "KA-000108"
+  },
+  {
+    "Title": "Appealing a Grade",
+    "Summary": "Steps to appeal a final course grade.",
+    "Answer": "First contact your instructor within 10 business days. If unresolved, submit a Grade Appeal Form to the department chair within 20 business days.",
+    "Category": "Academics",
+    "ArticleNumber": "KA-000109"
+  },
+  {
+    "Title": "Leave of Absence Policy",
+    "Summary": "How to request a leave for a term.",
+    "Answer": "Meet with your academic advisor and submit a Leave Request in the portal. Financial aid and housing implications may apply.",
+    "Category": "Enrollment",
+    "ArticleNumber": "KA-000110"
+  },
+  {
+    "Title": "Student Health Insurance",
+    "Summary": "Coverage and waiver details.",
+    "Answer": "All full-time students are enrolled by default. To waive, submit proof of comparable coverage by the published waiver deadline.",
+    "Category": "Student Life",
+    "ArticleNumber": "KA-000111"
+  },
+  {
+    "Title": "Campus ID Card",
+    "Summary": "Getting and replacing your ID.",
+    "Answer": "New students get an ID at Orientation Check-In. Replacements cost $25 at the Campus Card Office.",
+    "Category": "Student Life",
+    "ArticleNumber": "KA-000112"
+  }
+]
