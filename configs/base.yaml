@@ -5,7 +5,7 @@ run:
   seed: 42                    # master seed (where supported)
 
 datasets:
-  knowledge_path: "datasets/clean_knowledge.json"   # switch to overlap_knowledge.json to test overlap
+  knowledge_path: "datasets/overlap_knowledge.json"   # switch to overlap_knowledge.json to test overlap
   prompts_path: "prompts/prompts.json"
   chunk_size: 512
   chunk_overlap: 0.2          # 20% overlap
