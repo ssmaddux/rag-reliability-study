@@ -23,7 +23,7 @@ ids = [a['ArticleNumber'] for a in articles]
 bm25 = BM25Okapi([d.lower().split() for d in docs])
 
 # --- Build dense embeddings ---
-embedder = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+embedder = ("sentence-transformers/all-MiniLM-L6-v2")
 doc_embs = embedder.encode(docs, normalize_embeddings=True)
 
 # --- Query embedding and tokenization ---
