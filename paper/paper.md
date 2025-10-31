@@ -42,6 +42,27 @@ Importantly, this failure occurred **consistently across all trials**, demonstra
 
 This represents a **systematic retrieval error**, not random variance, and therefore a **core reliability risk in enterprise RAG systems**.
 
+### 4.2 Temperature and Variance Effects
+
+To evaluate the extent to which answer variability arises from language model stochasticity rather than retrieval behavior, we repeated the experiment at a higher decoding temperature (T=0.7). If variance were primarily due to the generative model, we would expect to see increased paraphrasing, semantic drift, or hallucinated details across repeated trials.
+
+However, we observed that the model continued to produce **highly consistent responses** across all prompts and trials, with only minor surface-level paraphrasing (e.g., “you will need to” vs. “you should”). Importantly, the **cited Knowledge Article (KA) ID remained identical across repetitions**, indicating that the retrieval subsystem — not the language model — was the dominant factor governing answer selection.
+
+This finding supports the interpretation introduced in Section 4.1:
+
+> **The agent’s errors are systematic and retrieval-driven, rather than stochastic or generation-driven.**
+
+For example, the prompt:
+
+> **“How do I apply for student loans?”**
+
+continued to return *“I don’t know”* with **KA-000101**, even at high temperature. This shows that **no degree of generative randomness can compensate for missing or semantically mismatched retrieval.**
+
+Thus:
+
+> **Retrieval stability, not LLM stochasticity, is the primary determinant of answer correctness in this system.**
+
+
 ### 5. Discussion
 - Why the mitigations help; limits of small scale; portability to Salesforce environments.
 

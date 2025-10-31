@@ -1,6 +1,6 @@
 # Minimal config for small, fast runs
 run:
-  name: "clean_knowledge"
+  name: "initial 0.7 temperature test."
   trials_per_prompt: 3        # repeat same prompt N times to measure variance
   seed: 42                    # master seed (where supported)
 
@@ -20,7 +20,7 @@ retrieval:
 llm:
   backend: "openai"
   model_name: "gpt-4o-mini"
-  temperature: 0.2     # we will experiment with this
+  temperature: 0.7     # we will experiment with this
   top_p: 1.0
   max_completion_tokens: 512
   seed: 1234    # set if backend=llama_cpp: e.g., "/path/to/Llama-3.1-8B-Instruct-Q4_K_M.gguf"
