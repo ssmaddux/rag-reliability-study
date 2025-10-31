@@ -24,6 +24,24 @@ We study variance in answers produced by an LLM help agent for university knowle
 - Retrieval correctness & stability under overlap; effect of MMR & dedup.
 - Combined stability with best settings.
 
+### 4.1 Retrieval Performance and Semantic Recall Failure
+
+We observed that the agent produced **consistent and grounded responses** across repeated trials when the relevant knowledge article (KA) closely matched the user's phrasing. For example, questions about class schedules, grade appeals, transcript requests, and password reset yielded identical responses across all trials.
+
+However, for the query:
+
+> **"How do I apply for student loans?"**
+
+the agent responded with *"I don't know"* while citing **KA-000101**, despite the existence of **financial aid / FAFSA guidance** in the knowledge base.
+
+This indicates a **semantic retrieval blind spot**:
+
+> **The retriever failed to associate “apply for student loans” with “FAFSA” and “financial aid,” resulting in a false negative.**
+
+Importantly, this failure occurred **consistently across all trials**, demonstrating that the limitation is **not model stochasticity**, but a **retrieval recall gap** when synonyms or paraphrasing are used.
+
+This represents a **systematic retrieval error**, not random variance, and therefore a **core reliability risk in enterprise RAG systems**.
+
 ### 5. Discussion
 - Why the mitigations help; limits of small scale; portability to Salesforce environments.
 
