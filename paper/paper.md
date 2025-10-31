@@ -49,4 +49,4 @@ This represents a **systematic retrieval error**, not random variance, and there
 See `reliability_checklist.md`.
 
 ### Appendix
-- Configs, prompts, dataset schema.
+- Configs, prompts, dataset schema..
